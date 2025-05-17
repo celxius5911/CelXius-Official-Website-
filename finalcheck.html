@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CelXius | Official Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      text-align: center;
+    }
+    header {
+      padding: 20px 0;
+    }
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid #f39c12;
+      box-shadow: 0 0 20px #f39c12;
+      object-fit: cover;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #f39c12;
+      margin: 10px 0;
+    }
+    .tagline {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      color: #ccc;
+    }
+    .links-section {
+      margin: 30px 0;
+    }
+    .link-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      color: #f39c12;
+      border: 2px solid #f39c12;
+      border-radius: 30px;
+      padding: 10px 20px;
+      margin: 10px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: all 0.3s;
+    }
+    .link-btn:hover {
+      background-color: #f39c12;
+      color: #000;
+    }
+    .link-btn i {
+      margin-right: 10px;
+    }
+    .about-section {
+      margin: 30px auto;
+      max-width: 600px;
+      padding: 0 15px;
+    }
+    .about-title {
+      font-size: 1.5rem;
+      color: #f39c12;
+      margin-bottom: 10px;
+    }
+    .about-text {
+      font-size: 1rem;
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    .latest-music-section {
+      padding: 40px 15px;
+      background-color: #111;
+    }
+    .music-title {
+      font-size: 1.5rem;
+      color: #f39c12;
+      margin-bottom: 20px;
+    }
+    .music-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 800px;
+      margin: 0 auto;
+      gap: 20px;
+    }
+    .album-cover {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      border: 2px solid #f39c12;
+      box-shadow: 0 0 15px #f39c12;
+    }
+    .music-players iframe {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #222;
+    }
+
+    .contact-section {
+      padding: 40px 15px;
+    }
+    .contact-title {
+      font-size: 1.5rem;
+      color: #f39c12;
+      margin-bottom: 10px;
+    }
+    .contact-text {
+      font-size: 1rem;
+      color: #ccc;
+    }
+    .contact-text a {
+      color: #f39c12;
+      text-decoration: underline;
+    }
+
+    footer {
+      margin: 40px 0 10px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="profile-pic" src="https://i.ibb.co/KxgS9ybm/profile.jpg" alt="CelXius Profile" />
+    <h1>CelXius</h1>
+    <p class="tagline">Rapper | Singer | Music Producer | Lyricist</p>
+  </header>
+
+  <section class="links-section">
+    <a class="link-btn" href="https://youtube.com/@celxius_productions?si=begF398eAhj7h52O" target="_blank">
+      <i class="fab fa-youtube"></i> YouTube
+    </a>
+    <a class="link-btn" href="https://open.spotify.com/artist/0ZBuS3N5LVuZ4iMhyGxKwf?si=al2QGLc7SHuGJOgov2gmsg" target="_blank">
+      <i class="fab fa-spotify"></i> Spotify
+    </a>
+    <a class="link-btn" href="https://music.apple.com/in/artist/celxius/1653647543" target="_blank">
+      <i class="fab fa-apple"></i> Apple Music
+    </a>
+  </section>
+
+  <section class="about-section">
+    <h2 class="about-title">About</h2>
+    <p class="about-text">
+      CelXius is an emerging artist in the Punjabi music scene. In addition, he also writes in English,
+      Haryanvi, and Hindi—making him a uniquely versatile artist.
+    </p>
+  </section>
+
+  <section class="latest-music-section">
+    <h2 class="music-title">Latest Music</h2>
+    <div class="music-container">
+      <img class="album-cover" src="https://i.ibb.co/JFWysHWP/JFWysHWP.jpg" alt="Album Art - CelXius">
+      <div class="music-players">
+        <iframe height="200" src="https://www.youtube.com/embed/b1mdPlkGYtM" 
+          title="CelXius - Latest Music" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+          encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <iframe style="border-radius:12px" 
+          src="https://open.spotify.com/embed/track/6rSZk5ZqIW9NrFvbzFjZYO?utm_source=generator" 
+          height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; 
+          fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <h2 class="contact-title">Contact</h2>
+    <p class="contact-text">
+      Email me at <a href="mailto:celxiusproduxns@gmail.com">celxiusproduxns@gmail.com</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 CelXius. All rights reserved.
+  </footer>
+</body>
+</html>
